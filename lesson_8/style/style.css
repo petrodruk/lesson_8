@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("fonts.css");
+@import url("reser.css");
+body {
+    font-family: "Inter";
+    color: #7d7d7d;
+    font-size: 18px;
+}
+.container {
+    max-width: 1076px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.container-project {
+    max-width: 1250px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.container-fashion,
+.container-clothing {
+    max-width: 1270px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+/* -------------Загальні Блоки------------- */
+.title {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #37393f;
+}
+.sub-title {
+    color: #37393f;
+    font-weight: 500;
+    display: inline-block;
+}
+.text {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #252b42;
+    line-height: 1.5;
+    margin-bottom: 150px;
+}
+.business-content,
+.business-points {
+    max-width: 673px;
+}
+.decor {
+    display: inline-block;
+    background-color: #40ddb6;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+}
+.project-sub-title,
+.project-title {
+    margin-bottom: 14px;
+}
+.sub-title-clothing {
+    font-family: "Core Sans C";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+.euphoria {
+    font-family: "Causten";
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+}
+.clothing-content,
+.euphoria-content {
+    margin-left: 15px;
+}
+.text-clothing p {
+    font-family: "Causten";
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+}
+#clothing-id {
+    margin-bottom: 25px;
+}
+#euphoria-id {
+    margin-bottom: 20px;
+}
+/* ------------------------ header----------------*/
+.relvice {
+    background: url("../img/relvise.jpg") right center / cover no-repeat;
+    padding: 40px 0px;
+    margin-bottom: 100px;
+}
+.relvice__container {
+    min-height: 205px;
+}
+.relvice__logo {
+    display: inline-block;
+    font-family: "Poppins";
+    max-width: 187px;
+    color: #252b42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.1px;
+    margin-right: 36px;
+}
+.relvise__nav {
+    display: inline-block;
+}
+.relvise__menu {
+    display: inline-block;
+}
+.relvise__item {
+    display: inline-block;
+    margin-right: 30px;
+}
+#contact-id {
+    margin-right: 0px;
+}
+.relvise__link {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+}
+/* --------------- practice-block---------------*/
+.practice-block {
+    background-color: silver;
+    margin-bottom: 100px;
+}
+.practice-text-1 {
+    background: url("../img/01.jpg") 0 0 / 400px no-repeat fixed;
+}
+.practice-text-2 {
+    background: url("../img/02.jpg") right top / 400px no-repeat fixed;
+}
+.practice-text-3 {
+    background: url("../img/03.jpg") top center / 400px no-repeat fixed;
+}
+.practice-text-4 {
+    background:
+        url("../img/01.jpg") 0 0 / 400px no-repeat fixed,
+        url("../img/02.jpg") right top / 400px no-repeat fixed,
+        url("../img/03.jpg") top center / 400px no-repeat fixed;
+}
+.practice-text-5 {
+    background:
+        url("../img/01.jpg") 0 0 / 30% repeat-x fixed,
+        url("../img/02.jpg") bottom center / 30% repeat-x fixed,
+        radial-gradient(circle, rgba(230, 37, 37, 1) 1%, rgba(9, 10, 121, 1) 35%, rgba(255, 0, 175, 1) 100%);
+}
+.practice-text-6 {
+    background:
+        url("../img/01.jpg") 0 0 / 1000px no-repeat fixed,
+        linear-gradient(90deg, rgba(201, 230, 37, 1) 0%, rgba(9, 121, 28, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+#practice-id {
+    margin-bottom: 0px;
+}
+/* -------------- business-block-----------*/
+.business-block {
+    margin-bottom: 100px;
+}
+.business-header {
+    max-width: 414px;
+}
+.business-sub-title {
+    margin: 0px 0px 16px 0px;
+}
+.business-title {
+    margin-bottom: 20px;
+}
+.business-content > p {
+    margin-bottom: 15px;
+}
+.business-content {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.business-points {
+    margin-bottom: 37px;
+}
+.point-row-one {
+    margin-bottom: 43px;
+}
+.point-row-one p {
+    color: #37393f;
+    font-family: "Poppins";
+    font-size: 20px;
+    background: url("../img/icons/01.svg") 0 3px no-repeat;
+    min-height: 33px;
+    padding-left: 35px;
+    line-height: 1.65;
+    margin-bottom: 23px;
+}
+#point-id {
+    margin-bottom: 0px;
+}
+.point-block {
+    display: inline-block;
+    border: 1px solid #e3e3e3;
+    max-width: 296.5px;
+    padding: 31px 32px 32px 32px;
+    margin-right: 21px;
+}
+.point-content {
+    min-height: 77px;
+}
+#block-id {
+    margin-right: 0px;
+}
+.point-title {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    line-height: 1.5;
+}
+.point-1 {
+    background: url("../img/icons/02.svg") 0 0 no-repeat;
+    padding-left: 58px;
+}
+.point-text {
+    font-size: 16px;
+    line-height: 1.35;
+}
+.point-2 {
+    background: url("../img/icons/03.svg") 0 0 no-repeat;
+    padding-left: 58px;
+}
+.business-button {
+    padding: 21px 27px 22px 27px;
+    background-color: #6b77e5;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+/* ------------project-block--------- */
+.project-block {
+    margin-bottom: 100px;
+}
+.project-header {
+    max-width: 852px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+.header-text {
+    line-height: 1.5;
+}
+.project-rows {
+    font-size: 0px;
+}
+.project-row-1 {
+    margin-bottom: 58px;
+}
+.project-column {
+    display: inline-block;
+    max-width: 384px;
+    width: 100%;
+}
+.projec-image {
+    max-width: 384px;
+    min-height: 501px;
+    margin-bottom: 24px;
+}
+.image-1 {
+    background: url("../img/project/01.png") center / cover no-repeat;
+    margin-right: 34px;
+}
+.image-2 {
+    background: url("../img/project/02.png") center / cover no-repeat;
+    margin-right: 34px;
+}
+.image-3 {
+    background: url("../img/project/03.png") center / cover no-repeat;
+}
+.image-4 {
+    background: url("../img/project/04.png") center / cover no-repeat;
+    margin-right: 34px;
+}
+.image-5 {
+    background: url("../img/project/05.png") center / cover no-repeat;
+    margin-right: 34px;
+}
+.image-6 {
+    background: url("../img/project/06.png") center / cover no-repeat;
+}
+.project-content {
+    font-size: 18px;
+}
+.project-text {
+    margin-bottom: 10px;
+    color: #37393f;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.project-data {
+    font-size: 14px;
+    line-height: 1.5;
+    background: url("../img/icons/04.svg") 0 -1px / 22px no-repeat;
+    padding-left: 25.35px;
+    min-height: 22px;
+}
+/* ---------------clothing-block------------ */
+.clothing-block {
+    font-size: 20px;
+    color: #807d7e;
+    margin-bottom: 100px;
+}
+.clothing-title {
+    color: #3c4242;
+    font-family: "Core Sans C";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.56px;
+    margin-bottom: 30px;
+}
+.clothing-decor {
+    display: inline-block;
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #8a33fd;
+    margin-right: 15px;
+}
+.euphoria-link {
+    font-family: "Core Sans C";
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+}
+/* ---------------- fashion-block-----------*/
+.fashion-block {
+    margin-bottom: 100px;
+}
+.fashion-columns {
+    font-size: 0px;
+}
+.column-fashion {
+    display: inline-block;
+    max-width: 614px;
+    height: 640px;
+    padding: 183px 74px 175px 74px;
+    background: url("../img/fashion/01.jpg") center / cover no-repeat;
+}
+.fashion-title {
+    color: #fff;
+    font-family: "Core Sans C";
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.47;
+    letter-spacing: 0.208px;
+    margin-bottom: 30px;
+}
+.fashion-text {
+    color: #fff;
+    font-family: "Causten";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.fashion-buton {
+    font-size: 18px;
+    color: #3c4242;
+    font-family: "Causten";
+    font-weight: 600;
+    padding: 12px 44px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.image-column {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 626px;
+    height: 640px;
+    width: 100%;
+    background: url("../img/fashion/02.jpg") center / cover no-repeat;
+}
+/* -------------footer---------- */
+.footer-body {
+    text-align: center;
+    padding: 50px 0px;
+    background: url("../img/fashion/01.jpg") center / cover no-repeat;
+}
+.footer-title {
+    color: #fff;
+    font-size: 32px;
+    font-family: "Causten";
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-list {
+    display: inline-block;
+    margin-right: 10px;
+}
+#list-id {
+    margin-right: 0px;
+}
+.footer-link {
+    color: #fff;
+}
